@@ -41,12 +41,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
                 text = df.university_name)
             ],
             'layout': {
-                'plot_bgcolor': colors['background'],
-                'paper_bgcolor': colors['background'],
-                'font': {
-                    'color': colors['text']
-                }
-            }
+                    'plot_bgcolor': colors['background'],
+                    'paper_bgcolor': colors['background'],
+                    'font': {
+                        'color': colors['text']}
+                }    
+                
+            
+            
         }
     )
 ])
